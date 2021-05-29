@@ -7,9 +7,11 @@ JFrame frame = new JFrame("성적 관리 프로그램");
 
 DefaultTableModel이라는 개념을 사용하였는데, 이 클래스를 사용하면 테이블에 행 단위로 쓰거나 삭제하는 것이 용이해진다. JTable 객체 생성 시 리모컨 역할을 하는 것과 같다. DefaultTableModel 객체를 생성하며 JTable의 데이터를 옮겨 저장한다.
 
+[code]
 DefaultTableModel model = new DefaultTableModel(contents,header);
 		JTable table = new JTable(model);
 		JScrollPane scrollpane = new JScrollPane(table);
+[/code]
 
 초기 화면이 뜬 후에는 정보를 입력해야 하는데, 그 입력을 위해 JTextField를 사용하여 구현하였다. JTextField() 괄호 안에는 칸 크기를 지정해 주었다. TextField에서 입력받은 데이터를 배열에다 저장하여 addRow() 메소드로 입력해 주었다.
 
