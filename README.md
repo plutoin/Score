@@ -1,3 +1,43 @@
+## 🖥 PROJECT 소개
+
+2019년 1학기 자바프로그래밍실습 강의 기말 텀 프로젝트 제작
+
+> JAVA를 이용해 만들어진 프로그램을 구현해 보며 심화 학습을 하고자 프로젝트에 참여하게 되었다. JAVA를 사용하여 여러 프로그램을 만들 수 있는데, 그중에서도 학교에서 가장 사용이 많이 될 성적 관리 프로그램을 구현해 보았다. 학생의 학번, 이름, 과목별 성적을 입력한 후 추가 버튼을 누를 경우에 순차적으로 정보가 입력되도록 구현하였다.
+
+🗓️ **작업기간** : 2019. 06.
+
+👨‍💻 **투입인원** : 1명
+
+📒 **주요업무** 
+
+- 기획 및 설계
+- 개발
+
+🌱 **스킬 및 사용툴**
+
+`Java` `Eclipse`
+
+<br>
+
+## 🖌️ INFO
+
+
+1. 최초 실행 화면
+
+![init](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d7e88bbf-388d-441d-9ee7-d476e3c04710/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210727T071250Z&X-Amz-Expires=86400&X-Amz-Signature=5cb254617bb87519be9f950bc025635f2c9644b32454851b5ca5480883edfa2f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+2. 성적 입력 후 추가 버튼 눌렀을 때
+
+![add](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e1c48b1b-74f7-44ba-9899-449cbbf7551a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210727T071423Z&X-Amz-Expires=86400&X-Amz-Signature=88beb873e526f9605546d0613e545d7784a8046f53cf1d8a8d09dcb0937056b0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+3. 삭제 항목 선택 후 삭제 버튼 눌렀을 때
+
+![delete](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8f1b903a-f726-4a9b-b7d8-29064ac17a14/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210727T071443Z&X-Amz-Expires=86400&X-Amz-Signature=6b9183aa042d15329005fcdac3f283741cd2b317d8048cd2d45420f512c685e5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+<br>
+
+## ✔️ CODE
+
 프로그램을 실행했을 때 가장 초기 화면에는 아무것도 뜨지 않게 했다. 맨 위에 학번, 이름, JAVA, Python, C++이라는 헤더를 넣어 정보를 입력하였을 때 구분이 될 수 있도록 하였다. 실행 창 상단에는 “성적 관리 프로그램”이라는 문자가 뜰 수 있도록 하였으며, 창 크기는 500*400으로 설정하였다.
 
 	JFrame frame = new JFrame("성적 관리 프로그램");
